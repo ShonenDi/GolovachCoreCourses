@@ -8,5 +8,12 @@ public class FirstLesson {
 //        System.out.println(s1);
         String s2 = s.substring(1, 4);
         System.out.println(s2);
+        System.out.println(tryvfChar());
+
     }
+    public static char tryvfChar (){
+        char cr1 = 12145;
+        return cr1;
+    }
+
 }
