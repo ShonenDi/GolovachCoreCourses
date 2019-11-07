@@ -1,5 +1,7 @@
 package com.gmail.shonen1988;
 
+import java.util.Arrays;
+
 public class FirstLesson {
     public static void main(String[] args) {
         String s = "Hello";
@@ -15,5 +17,8 @@ public class FirstLesson {
         char cr1 = 12145;
         return cr1;
     }
-
+    public static void testCodePoint(int codePoint){
+        char[] charArr = Character.toChars(codePoint);
+        System.out.println("char[] " + Arrays.toString(charArr) );
+    }
 }
